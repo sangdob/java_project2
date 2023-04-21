@@ -1,14 +1,23 @@
 package com.javaProject2.val;
 
 public class Point {
-    private int x;
-    private int y;
 
-    public int getX() {
+    private double x;
+    private double y;
+
+    public Point() {
+    }
+
+    public Point(double x, double y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public double getX() {
         return x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
