@@ -41,8 +41,12 @@ public class User {
         System.out.printf("%s님은 나이가 %d이므로 %s입니다. \n 이메일 : %s"
                 , this.name
                 , this.age
-                , this.isAdult() ? "성인" : "미성인"
+                , printAdult()
                 , this.email);
+    }
+
+    private String printAdult() {
+        return this.isAdult() ? "성인" : "미성인";
     }
 
     private boolean isAdult() {
