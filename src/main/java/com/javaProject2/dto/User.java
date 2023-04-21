@@ -37,7 +37,7 @@ public class User {
         return email;
     }
 
-    public void print(){
+    public void printUserInfo(){
         System.out.printf("%s님은 나이가 %d이므로 %s입니다. \n 이메일 : %s"
                 , this.name
                 , this.age

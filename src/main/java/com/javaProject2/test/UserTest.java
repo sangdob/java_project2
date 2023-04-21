@@ -6,6 +6,6 @@ public class UserTest {
     public static void main(String[] args) {
         User user = new User("parkSangDo", 27, "sangdob@gmail.com");
         user.toString();
-        user.print();
+        user.printUserInfo();
     }
 }
