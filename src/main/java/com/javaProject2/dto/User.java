@@ -37,6 +37,18 @@ public class User {
         return email;
     }
 
+    public void print(){
+        System.out.printf("%s님은 나이가 %d이므로 %s입니다. \n 이메일 : %s"
+                , this.name
+                , this.age
+                , this.isAdult() ? "성인" : "미성인"
+                , this.email);
+    }
+
+    private boolean isAdult() {
+        return this.age >= 20;
+    }
+
     @Override
     public String toString() {
         return "User{" +
