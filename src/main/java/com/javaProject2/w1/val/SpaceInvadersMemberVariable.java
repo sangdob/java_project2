@@ -1,4 +1,4 @@
-package com.javaProject2.val;
+package com.javaProject2.w1.val;
 
 public class SpaceInvadersMemberVariable {
     private int location = 0; // 멤버변수

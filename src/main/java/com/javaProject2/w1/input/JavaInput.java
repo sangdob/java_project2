@@ -1,4 +1,4 @@
-package com.javaProject2.input;
+package com.javaProject2.w1.input;
 
 import org.springframework.util.StringUtils;
 

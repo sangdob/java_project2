@@ -1,4 +1,4 @@
-package com.javaProject2.input;
+package com.javaProject2.w1.input;
 
 public class ScannerEx2Test {
     public static void main(String[] args) {

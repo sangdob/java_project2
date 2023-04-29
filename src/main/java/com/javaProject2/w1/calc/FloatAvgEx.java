@@ -1,4 +1,4 @@
-package com.javaProject2.calc;
+package com.javaProject2.w1.calc;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.javaProject2.dto;
+package com.javaProject2.w1.dto;
 
 public class User {
     private String name;

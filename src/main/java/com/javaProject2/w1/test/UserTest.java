@@ -1,6 +1,6 @@
-package com.javaProject2.test;
+package com.javaProject2.w1.test;
 
-import com.javaProject2.dto.User;
+import com.javaProject2.w1.dto.User;
 
 public class UserTest {
     public static void main(String[] args) {

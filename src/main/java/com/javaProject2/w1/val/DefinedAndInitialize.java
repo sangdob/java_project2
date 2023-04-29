@@ -1,6 +1,6 @@
-package com.javaProject2.val;
+package com.javaProject2.w1.val;
 
-import com.javaProject2.input.PrintHello;
+import com.javaProject2.w1.input.PrintHello;
 
 import java.util.Scanner;
 
