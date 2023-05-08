@@ -3,11 +3,11 @@ package com.javaProject2.w4.d1;
 public class LionMath {
 
     public int sumOfFactors(int num) {
-        int sum = 1;
+        int sum = 0;
 
         for (int i = num; i > 2; i--) {
             if (num % i == 0) {
-                sum *= i;
+                sum += i;
             }
         }
 
