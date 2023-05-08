@@ -9,7 +9,13 @@ class UserTest {
         User user = new User();
         user.name = "tester";
         user.age = 20;
-        user.printAdult();
+        user.phoneNumber = "010-000-0000";
+
+        User user2 = new User();
+        user2.name = "test2";
+        user2.age = 15;
+        user2.phoneNumber = "010-0211-3234";
+        user2.printAdult();
 
         assertThat(user.name).isEqualTo("tester");
         assertThat(user.age).isEqualTo(20);
