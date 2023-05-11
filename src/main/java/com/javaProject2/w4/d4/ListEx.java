@@ -11,5 +11,7 @@ public class ListEx {
         System.out.println(list.get(0));
         System.out.println(list.get(1));
         System.out.println(list.size());
+
+        list.forEach(o -> System.out.println(o));
     }
 }
