@@ -1,6 +1,7 @@
 package com.javaProject2.w5;
 
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class BubbleSort {
     private int arr[];
@@ -32,5 +33,9 @@ public class BubbleSort {
 
     public void print() {
         System.out.println(Arrays.toString(this.arr));
+    }
+
+    public Comparator<Integer> compare() {
+        return (o1, o2) -> compare().compare(o1, o2);
     }
 }
