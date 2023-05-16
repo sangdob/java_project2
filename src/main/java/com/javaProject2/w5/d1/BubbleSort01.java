@@ -1,4 +1,4 @@
-package com.javaProject2.w5;
+package com.javaProject2.w5.d1;
 
 
 import java.util.Arrays;

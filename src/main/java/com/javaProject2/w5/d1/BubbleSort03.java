@@ -1,4 +1,4 @@
-package com.javaProject2.w5;
+package com.javaProject2.w5.d1;
 
 /**
  * OOP로 만들어 준 BubbleSort
